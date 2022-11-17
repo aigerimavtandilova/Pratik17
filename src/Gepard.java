@@ -5,7 +5,7 @@ public class Gepard extends Beast{
 
     @Override
     public void attack() {
-        System.out.println(getName()+"  is attacking!");
+        super.attack();
     }
 
     @Override

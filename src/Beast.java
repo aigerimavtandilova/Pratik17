@@ -21,7 +21,9 @@ public abstract class Beast {
     public void setWeight(int weight) {
         this.weight = weight;
     }
-    public abstract void attack();
+    public void attack(){
+        System.out.println(name+ "   is attacking");
+    }
     public abstract void speed(int speed);
 
     @Override

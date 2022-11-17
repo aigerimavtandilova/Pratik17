@@ -2,10 +2,10 @@ public class Tiger extends Beast{
     public Tiger(String name, int weight) {
         super(name, weight);
     }
+
     @Override
     public void attack() {
-
-        System.out.println(getName()+"  is attacking!");
+        super.attack();
     }
 
     @Override
